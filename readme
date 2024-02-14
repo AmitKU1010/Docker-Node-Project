@@ -1,0 +1,15 @@
+
+1. docker pull node - to pull new image from remote repo to local
+2. docker run -it node - to run a docker image
+3. docker build -t basic-app .
+4. dockerignore *.extention to ignore all specific extenstion file
+5. docker images    - to get the list of images
+6. docker image rm imageName    - to delete the image
+7. docker image rm imageName -f    - to delete the image forcefully
+8. docker ps -a       -to get all list of container
+9. docker container rm containerName         -to delete container
+10. docker container rm containerName -f     -sto delete container forcefully
+11. docker system prune -a          -to remove all containers
+12. docker build -t imageName:v2 .     - to create a image with version name
+13. docker run --name containerName -p 1500:3000 imagename       - command to run image in a container.
+d
