@@ -1,4 +1,3 @@
-
 1. docker pull node - to pull new image from remote repo to local
 2. docker run -it node - to run a docker image
 3. docker build -t basic-app .
@@ -12,4 +11,10 @@
 11. docker system prune -a          -to remove all containers
 12. docker build -t imageName:v2 .     - to create a image with version name
 13. docker run --name containerName -p 1500:3000 imagename       - command to run image in a container.
-d
+14. docker run --name ku1-container-new -p 3003:3001 --rm -v /Users/amit.sahoo/Developement/expressgenerator:/app  ku1       - to run with volume and reflect the changes directly.
+15. docker compose up    -to run docker composer file
+16. docker login   - to login to your docker account
+17. docker push repositoryName   - to push your image to the repo
+18. docker pull imageName
+19. docker buildx build --platform linux/amd64 -t amit909/node-demo-app .     -to deploy the image on server
+20. docker run -p 3000:3000 dockerContainerName   - to run a docker image
